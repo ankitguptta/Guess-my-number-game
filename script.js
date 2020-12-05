@@ -39,7 +39,7 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   }
 });
-
+// resetting after clicking again button
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   secretnumber = Math.trunc(Math.random() * 20) + 1;
